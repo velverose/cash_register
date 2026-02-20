@@ -6,7 +6,7 @@
 - работы с Git и GitHub
 - feature-веток
 - коммитов
-- merge
+
 
 ---
 

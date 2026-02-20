@@ -27,6 +27,7 @@ void main() {
   double total = cashier.calculateTotal(products);
   double vat = cashier.calculateVat(total);
   double finalSum = cashier.calculateFinal(total);
+  //new commit
 
   print('\n====== ЧЕК ======');
   for (var p in products) {
@@ -37,4 +38,7 @@ void main() {
   print('Сумма: ${total.toStringAsFixed(2)} тг');
   print('В том числе НДС (12%): ${vat.toStringAsFixed(2)} тг');
   print('ИТОГО К ОПЛАТЕ: ${finalSum.toStringAsFixed(2)} тг');
+  // 🔹 Новый коммит: добавлен приветственный вывод
+print('Привет! Тестовый коммит.');
+
 }
