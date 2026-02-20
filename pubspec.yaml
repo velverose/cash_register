@@ -1,0 +1,6 @@
+name: cash_register
+description: Console cash register application with VAT (12%)
+version: 1.0.0
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
